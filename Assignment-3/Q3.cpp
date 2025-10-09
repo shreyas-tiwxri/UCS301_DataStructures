@@ -26,7 +26,7 @@ bool isBalanced(string exp) {
 int main() {
     string exp;
     cout << "Enter an expression: ";
-    cin >> exp;   // Note: cin stops at space, use getline(cin, exp) for full input
+    cin >> exp;
     
     if (isBalanced(exp)) {
         cout << "Balanced.\n";
